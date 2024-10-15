@@ -136,7 +136,7 @@
     <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/10d44aa952a122d0e7be2a6969d369588970ff78c60befefabe855267e5c574a?placeholderIfAbsent=true&apiKey=77dd066ede6c44b99cde843386742085" alt="Rosy Lamb painting in her studio" class="creator-image" />
     <div class="creator-description">
       <p>{{ $t('rosy_intro') }}</p>
-      <a href="#" class="link-underline">{{ $t('discover_my_paintings') }}</a>
+      <a href="https://www.rosylamb.com/" class="link-underline">{{ $t('discover_my_paintings') }}</a>
     </div>
   </div>
 
@@ -144,7 +144,7 @@
     <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/3b376ed24f716f87995c33f50efe415afaa1e1aad3cf2b9a1372e400b110f564?placeholderIfAbsent=true&apiKey=77dd066ede6c44b99cde843386742085" alt="hérétique team" class="creator-image" />
     <div class="creator-description">
       <p>{{ $t('heretic_intro') }}</p>
-      <a href="#" class="link-underline">{{ $t('discover_heretic') }}</a>
+      <a href="https://heretique.fr" class="link-underline">{{ $t('discover_heretic') }}</a>
     </div>
   </div>
 </section>
@@ -564,8 +564,8 @@ svg {
 }
 
 .galaxy-image {
-  width: fit-content;
   height: 210px;
+  object-fit: cover;
 }
 .galaxy-title {
   padding: 10px 20px;
