@@ -825,7 +825,8 @@ export default {
     link.rel = 'stylesheet';
     link.href = 'https://use.typekit.net/mev3zhe.css';
     document.head.appendChild(link);
-    
+    let title =  "Cocolor";
+    document.title = title; // Change le titre ici
   },
   beforeUnmount() {
     window.removeEventListener('scroll', this.handleScroll);
