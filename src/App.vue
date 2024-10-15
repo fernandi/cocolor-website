@@ -4,8 +4,8 @@
       <button class="close-button" @click="showStoreLinks = false">✕</button>
       {{ $t('get_app') }}
         <div class="store-links-container">
-        <a href="https://play.google.com/store/apps/details?id=com.heretic.cocolor">  <img :src="svgImport('appStore')"></a>
-        <a href="https://apps.apple.com/fr/app/cocolor/id6547847867"><img :src="svgImport('playStore')"></a>
+        <a href="https://apps.apple.com/fr/app/cocolor/id6547847867" style="text-align: center">  <img :src="svgImport('appStore')"></a>
+        <a href="https://play.google.com/store/apps/details?id=com.heretic.cocolor"  style="text-align: center"><img :src="svgImport('playStore')"></a>
       </div>
     </div>
     <div v-if="showLegals" class="fullscreen">
@@ -274,6 +274,7 @@ a{
   cursor: pointer;
   z-index: 300;
   color: #000; /* Assure que la croix est visible */
+  padding: 0 10px;
 }
 
 
